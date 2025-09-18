@@ -15,6 +15,8 @@
 <div align="center">
 This repository is a beginner-friendly CodeIgniter 4 template.  
 It helps teams quickly bootstrap backend + frontend projects, with simple sample modules that show how to extend the system.
+
+beginer noob
 </div>
 
 <br/>
