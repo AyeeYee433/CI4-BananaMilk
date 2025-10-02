@@ -15,6 +15,12 @@
             background-image: url('https://static.vecteezy.com/system/resources/previews/047/137/304/non_2x/a-glass-of-coffee-with-whipped-cream-and-bananas-free-photo.jpg');
         }
 
+        a:hover {
+            background-color: #C2A68C;
+            font-size: 10px;
+            padding: 2px;
+        }
+
         .hed {
             border: 1px;
             padding: 4px;
@@ -39,6 +45,17 @@
             color: black;
             font-size: 20px;
             word-spacing: 10px;
+        }
+
+        .welcome {
+            text-align: center;
+            font-weight: 100;
+            border: 12px;
+            padding: 15px;
+            background-color: #FFF0DD;
+            margin: 20px;
+            /* height: 50px;
+            width: 100%; */
         }
     </style>
 
@@ -73,7 +90,9 @@
 
     <!-- landind -->
     <div>
-
+        <div class="welcome">
+            <h1>Welcome to Banana Milk Cafe</h1>
+        </div>
 
     </div>
 

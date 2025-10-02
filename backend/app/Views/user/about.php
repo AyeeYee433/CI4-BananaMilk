@@ -10,9 +10,19 @@
 <body>
     <style>
         body {
-            background-color: #FCE7C8;
+            /* background-color: #FCE7C8; */
             margin: 0;
-            /* background-image: url('https://static.vecteezy.com/system/resources/previews/047/137/304/non_2x/a-glass-of-coffee-with-whipped-cream-and-bananas-free-photo.jpg'); */
+            background-image: url('https://static.vecteezy.com/system/resources/previews/047/137/304/non_2x/a-glass-of-coffee-with-whipped-cream-and-bananas-free-photo.jpg');
+            /* background-repeat: no-repeat; */
+            background-attachment: fixed;
+            /* background-position: center; */
+            /* background-size: auto;s */
+        }
+
+        a:hover {
+            background-color: #C2A68C;
+            font-size: 10px;
+            padding: 2px;
         }
 
         .hed {
@@ -44,7 +54,88 @@
 
         .moodboard {
             text-align: center;
-            /* border-width: 100px; */
+        }
+
+        .roadd {
+            text-align: center;
+        }
+
+        p {
+            font-weight: bold;
+            font-size: 700;
+        }
+
+        .roads {
+            margin: 0 auto;
+            text-align: center;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 20px;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            display: grid;
+
+        }
+
+        .step {
+            justify-content: center;
+            text-align: center;
+            font-weight: 100;
+            border: 12px;
+            border-radius: 10px;
+            padding: 15px;
+            background-color: #FFF0DD;
+            margin: 20px;
+            width: 1000px;
+        }
+
+        .step:hover {
+            background-color: #D97D55;
+            font-size: 18px;
+        }
+
+        .moodi {
+            margin: 0 auto;
+            text-align: center;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 20px;
+            flex-wrap: wrap;
+            max-width: 1000px;
+        }
+
+        .moodi img {
+            margin: auto;
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .moodcolor {
+            margin: 0 auto;
+            text-align: center;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 20px;
+            flex-wrap: wrap;
+            max-width: 1000px;
+        }
+
+        .moodboard {
+            margin: 0 auto;
+            justify-content: center;
+            background-color: rgb(194, 166, 140, 0.5);
+            width: 65%;
+            padding: 10px;
+        }
+
+        .roadd {
+            margin: 0 auto;
+            justify-content: center;
+            background-color: rgb(194, 166, 140, 0.5);
+            width: 65%;
+            padding: 10px;
+            background-color: 0.5;
         }
     </style>
 
@@ -82,47 +173,35 @@
         <h1>Moodboard</h1>
         <div class="moodbI">
             <div class="moodcolor">
-                <div class="color-swatch" style="background-color: #FCE7C8; color: #1d3557;" title="Banana Cream">#FCE7C8</div>
-                <div class="color-swatch" style="background-color: #ede6ddff; color: #1d3557;" title="Oat Milk">#EDE6DD</div>
-                <div class="color-swatch" style="background-color: #C2A68C; color: white;" title="Dark Coffee">#1D3557</div>
-                <div class="color-swatch" style="background-color: #D97D55; color: white;" title="Blue Accent">#457B9D</div>
+                <div class="colors" style="background-color: #FCE7C8; color: #1d3557;" title="Banana Cream">#FCE7C8</div>
+                <div class="colors" style="background-color: #ede6ddff; color: #1d3557;" title="Oat Milk">#ede6ddff</div>
+                <div class="colors" style="background-color: #C2A68C; color: white;" title="Dark Coffee">#C2A68C</div>
+                <div class="colors" style="background-color: #D97D55; color: white;" title="Blue Accent">#D97D55</div>
             </div>
 
-            <div class="moodboard-item">
+            <div class="moodi">
                 <h2>Soft Cafe Vibe</h2>
-                <img src="https://via.placeholder.com/400x300?text=Soft+Natural+Light" alt="Soft light in cafe">
-                <p>Focus on **natural, diffused lighting** and clean, modern lines. An inviting and calming atmosphere.</p>
+                <img src="https://anearthlyparadise.com/wp-content/uploads/2024/08/cardinal-interior.jpg" alt="Soft">
+                <p>Focus on warm natural visuals</p>
             </div>
 
-            <div class="moodboard-item">
+            <div class="moodi">
                 <h2>Product Focus</h2>
-                <img src="https://via.placeholder.com/400x300?text=Banana+Coffee+Treat" alt="Banana Coffee Treat">
-                <p>High-quality visuals of the signature **Banana Milk Coffee** and gourmet banana bread. Wholesome and indulgent.</p>
+                <img src="https://fooddaydreaming.com/wp-content/uploads/2021/07/Banana2-1.jpg" alt="Banana Treat">
+                <p>Shows different food created with Banana</p>
             </div>
 
-            <div class="moodboard-item">
-                <h2>Texture & Materials</h2>
-                <img src="https://via.placeholder.com/400x300?text=Light+Wood+Texture" alt="Light Wood Texture">
-                <p>Materials: **Light-toned natural wood**, matte ceramics, and soft knit textiles. Emphasis on organic and tactile comfort.</p>
+            <div class="moodi">
+                <h2>Texture, Materials, and Environment</h2>
+                <img src="https://images.adsttc.com/media/images/67e3/e20b/8da1/ef01/8749/5184/newsletter/thila-bistro-and-cafe-3fconcept_20.jpg?1742987804" alt="Texture">
+                <p>Customer friendly cafe where natural materials like woods to create a soft and warm visual environment where cutomers, young and old can come and relax.</p>
             </div>
 
-            <div class="moodboard-item typography-item">
-                <h2>Typography & Voice</h2>
-                <h3>The Cafe Headline</h3>
-                <p>Body Text: **Wholesome comfort** is served daily.</p>
-                <p>Using a friendly serif for headlines and a clean sans-serif for body text for a blend of classic and modern.</p>
-            </div>
 
-            <div class="text-section moodboard-item">
-                <h2>Keywords & Tone</h2>
-                <p style="font-size: 1.1em; font-weight: bold; color: #1d3557;">"Simple ingredients, perfected comfort."</p>
-                <p>Keywords: **Wholesome, Warm, Minimal, Cozy, Balanced, Nostalgic.** The tone is inviting and relaxed.</p>
-            </div>
-
-            <div class="moodboard-item">
-                <h2>Accent Element</h2>
-                <img src="https://via.placeholder.com/400x300?text=Green+Plant+Accent" alt="Green Plant Accent">
-                <p>Subtle use of **deep green foliage** (like banana leaves or small potted plants) to add life and freshness.</p>
+            <div class="moodi">
+                <h2>Visual Element</h2>
+                <img src="https://mindfuldesignconsulting.com/wp-content/uploads/2022/04/Boho-Style-Restaurant-Design-with-Plants.jpg" alt="visual">
+                <p>Shows banana tree murals and plants for a open like scene</p>
             </div>
         </div>
     </div>
@@ -130,9 +209,24 @@
 
     <!-- roadmap -->
     <div class="roadd">
+        <h1>Roadmap</h1>
         <div class="roads">
-
-
+            <div class="step">
+                <h2>Step 1: Brainstorming</h2>
+                <p>Brainstorming ideas</p>
+            </div>
+            <div class="step">
+                <h2>Step 2: Creation</h2>
+                <p>Creation of brand, menu, food, drinks, and dessert</p>
+            </div>
+            <div class="step">
+                <h2>Step 3: Store</h2>
+                <p>Store creation</p>
+            </div>
+            <div class="step">
+                <h2>Step 4: Opening</h2>
+                <p>Shop opening</p>
+            </div>
         </div>
 
     </div>

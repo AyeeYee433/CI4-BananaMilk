@@ -15,6 +15,13 @@
             background-image: url('https://static.vecteezy.com/system/resources/previews/047/137/304/non_2x/a-glass-of-coffee-with-whipped-cream-and-bananas-free-photo.jpg');
         }
 
+        a:hover {
+            background-color: #C2A68C;
+            font-size: 10px;
+            padding: 2px;
+
+        }
+
         .hed {
             border: 1px;
             padding: 4px;

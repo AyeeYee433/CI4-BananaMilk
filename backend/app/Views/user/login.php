@@ -19,6 +19,12 @@
             background-size: auto; */
         }
 
+        a:hover {
+            background-color: #C2A68C;
+            font-size: 10px;
+            padding: 2px;
+        }
+
         .hed {
             border: 1px;
             padding: 4px;

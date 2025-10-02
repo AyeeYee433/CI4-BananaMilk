@@ -15,6 +15,12 @@
             background-image: url('https://static.vecteezy.com/system/resources/previews/047/137/304/non_2x/a-glass-of-coffee-with-whipped-cream-and-bananas-free-photo.jpg');
         }
 
+        a:hover {
+            background-color: #C2A68C;
+            font-size: 10px;
+            padding: 2px;
+        }
+
         .hed {
             border: 1px;
             padding: 4px;
@@ -45,18 +51,31 @@
 
         .menu {
             text-align: center;
+            background-color: rgba(194, 166, 140, 0.58);
+            margin: 0 auto;
+            justify-content: center;
+            width: 100%;
+            padding: 10px;
         }
 
 
+
         .mtable {
-            display: flex;
+            margin: 0 auto;
             justify-content: center;
-            gap: 1.5rem;
-            padding: 10px 20px;
-            width: auto;
-            /* background-color: #fce7c8; */
+            gap: 20px;
+            padding: 20px;
+            width: 30%;
             border: 1px solid black;
             border-collapse: collapse;
+            text-align: center;
+        }
+
+        .mtable img {
+            margin: auto;
+            max-width: 100%;
+            height: auto;
+            display: block;
         }
 
         .items {
@@ -68,18 +87,9 @@
             background-color: #D97D55;
         }
 
-        /* tr:nth-child(even) {
-            background-color: #C2A68C;
-        } */
-
-        /* th:nth-child(even),
-        td:nth-child(even) {
-            background-color: #E2A16F;
-        } */
-
         img {
-            height: 200px;
-            width: 210px;
+            height: auto;
+            width: auto;
         }
     </style>
 
@@ -118,8 +128,8 @@
             <table class="mtable">
                 <!-- Drink -->
                 <tr>
-                    <td>
-                        <h1 class="menu">Drink</h1>
+                    <td class="menu" colspan="2">
+                        <h1>Drink</h1>
                     </td>
                 </tr>
 
@@ -142,8 +152,8 @@
 
                 <!-- food -->
                 <tr>
-                    <td>
-                        <h1 class="menu">Food</h1>
+                    <td class="menu" colspan="2">
+                        <h1>Food</h1>
                     </td>
                 </tr>
                 <tr class="items">
