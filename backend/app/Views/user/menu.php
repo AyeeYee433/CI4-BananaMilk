@@ -10,9 +10,9 @@
 <body>
     <style>
         body {
-            background-color: #FCE7C8;
+            /* background-color: #FCE7C8; */
             margin: 0;
-            /* background-image: url('https://static.vecteezy.com/system/resources/previews/047/137/304/non_2x/a-glass-of-coffee-with-whipped-cream-and-bananas-free-photo.jpg'); */
+            background-image: url('https://static.vecteezy.com/system/resources/previews/047/137/304/non_2x/a-glass-of-coffee-with-whipped-cream-and-bananas-free-photo.jpg');
         }
 
         .hed {
@@ -21,12 +21,13 @@
             background-color: #ede6ddff;
         }
 
-        .table th,
+        table th,
         td {
             width: 100%;
             border-collapse: collapse;
             padding: 10px;
             padding-left: 20px;
+
         }
 
         #h1-banana {
@@ -44,6 +45,41 @@
 
         .menu {
             text-align: center;
+        }
+
+
+        .mtable {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            padding: 10px 20px;
+            width: auto;
+            /* background-color: #fce7c8; */
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        .items {
+            background-color: #E2A16F;
+        }
+
+        .item {
+            font-size: large;
+            background-color: #D97D55;
+        }
+
+        /* tr:nth-child(even) {
+            background-color: #C2A68C;
+        } */
+
+        /* th:nth-child(even),
+        td:nth-child(even) {
+            background-color: #E2A16F;
+        } */
+
+        img {
+            height: 200px;
+            width: 210px;
         }
     </style>
 
@@ -64,10 +100,7 @@
                     <a href="/menu">Menu</a>
                 </td>
                 <td class="heh1">
-                    <a href="/moodboard">Moodboard</a>
-                </td>
-                <td class="heh1">
-                    <a href="/roadmap">Roadmap</a>
+                    <a href="/about">About</a>
                 </td>
                 <td class="heh1">
                     <a href="/login">Login</a>
@@ -81,11 +114,59 @@
 
     <!-- menu -->
     <div>
-        <h1 class="menu">Menu</h1>
         <div>
-            <h1>hehe food</h1>
+            <table class="mtable">
+                <!-- Drink -->
+                <tr>
+                    <td>
+                        <h1 class="menu">Drink</h1>
+                    </td>
+                </tr>
+
+                <tr class="items">
+                    <td><img src="https://www.allrecipes.com/thmb/tu_DSAmBUu_wlgQoTvfBM2MMH0c=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7966165KoreanBananaMilkYoly4x3-96cb3d6ff7f34896bb099bb2203bc4cf.jpg" alt="Banana milk"></td>
+                    <td class="item">Banana Milk</td>
+                </tr>
+                <tr class="items">
+                    <td><img src="https://plus.unsplash.com/premium_photo-1695035007016-f7976bbb64d3?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="shake"></td>
+                    <td class="item">Banana Shake</td>
+                </tr>
+                <tr class="items">
+                    <td><img src="https://www.allrecipes.com/thmb/MQ5v2ANXR_xwyukshYTGbDjRWLc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/6605824-banana-milk-coffee-Yoly-4x3-1-2a809973838943abbb8baf7bf608f027.jpg" alt="coffee" </td>
+                    <td class="item">Banana Coffee</td>
+                </tr>
+                <tr class="items">
+                    <td><img src="https://www.inspiredtaste.net/wp-content/uploads/2016/06/Banana-Smoothie-Recipe-4-1200.jpg" alt="smoothie"></td>
+                    <td class="item">Banana Smoothie</td>
+                </tr>
+
+                <!-- food -->
+                <tr>
+                    <td>
+                        <h1 class="menu">Food</h1>
+                    </td>
+                </tr>
+                <tr class="items">
+                    <td><img src="https://lilluna.com/wp-content/uploads/2021/11/banana-waffles-resize-5.jpg" alt="waffle"></td>
+                    <td class="item">Banana Waffle</td>
+                </tr>
+                <tr class="items">
+                    <td><img src="https://www.allrecipes.com/thmb/bt3JVNVHPFWWrmA1A-aUFn1ca_Y=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/20334-banana-pancakes-i-DDMFS-4x3-9f291f03044247d48c9ec26917952402.jpg" alt="Pancake"></td>
+                    <td class="item">Banana Pancake</td>
+                </tr>
+                <tr class="items">
+                    <td><img src="https://www.allrecipes.com/thmb/Xas5YvLFIEd7itElrQ-hCazgcRg=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/ALR-8333-banana-cake-vi-VAT-4x3-2f3d18cde9a6438fa6701863aa4e4b7d.jpg" alt="cake"></td>
+                    <td class="item">Banana Cake</td>
+                </tr>
+                <tr class="items">
+                    <td><img src="https://www.thespruceeats.com/thmb/rRgACcJGrtpYOhAAkA4n-Ovsyi0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/perfect-banana-split-recipe-305712-hero-01-ef0482a539394da0b5ba64ade0c73b98.jpg" alt="sundae"></td>
+                    <td class="item">Banana Sundae</td>
+                </tr>
+            </table>
         </div>
     </div>
+
+
 
 
 

@@ -59,10 +59,7 @@
                     <a href="/menu">Menu</a>
                 </td>
                 <td class="heh1">
-                    <a href="/moodboard">Moodboard</a>
-                </td>
-                <td class="heh1">
-                    <a href="/roadmap">Roadmap</a>
+                    <a href="/about">About</a>
                 </td>
                 <td class="heh1">
                     <a href="/login">Login</a>
