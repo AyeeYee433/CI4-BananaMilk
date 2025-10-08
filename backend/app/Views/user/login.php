@@ -5,9 +5,7 @@
     <title>Login</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
 
-<body>
     <style>
         body {
             /* background-color: #FCE7C8; */
@@ -61,6 +59,7 @@
             /* Adjust height for full view */
             padding: 40px 20px;
             text-align: center;
+
         }
 
         .loginpage {
@@ -129,6 +128,10 @@
             text-align: left;
         }
     </style>
+
+</head>
+
+<body>
 
     <?php
 
