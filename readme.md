@@ -13,8 +13,10 @@
 
 <!-- * Description Section -->
 <div align="center">
+
 This repository is a practice template for a website.  
 It shows the current progress for this project
+
 </div>
 
 <br/>
@@ -101,7 +103,7 @@ None so far
 Run the development stack and the app (rebuild if needed):
 
 ```cmd
-docker compose up -d --build
+docker compose up --watch
 ```
 
 Common utility commands (run inside the project root):
