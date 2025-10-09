@@ -5,14 +5,17 @@
     <title>Banana Milk</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
 
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <style>
         body {
             background-color: #FCE7C8;
             margin: 0;
             background-image: url('https://static.vecteezy.com/system/resources/previews/047/137/304/non_2x/a-glass-of-coffee-with-whipped-cream-and-bananas-free-photo.jpg');
+            background-attachment: fixed;
         }
 
         a:hover {
@@ -48,16 +51,28 @@
         }
 
         .welcome {
+            display: flex;
             text-align: center;
+            align-items: center;
+            justify-content: center;
             font-weight: 100;
             border: 12px;
             padding: 15px;
-            background-color: #FFF0DD;
+            background-color: rgba(255, 240, 221, 0.52);
             margin: 20px;
+            position: inherit;
+            min-width: 1004px;
+            min-height: 658px;
+            height: 100%;
+            font-family: 'Raleway';
             /* height: 50px;
             width: 100%; */
         }
     </style>
+</head>
+
+<body>
+
 
     <?php
 
