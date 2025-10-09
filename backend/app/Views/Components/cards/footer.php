@@ -1,3 +1,17 @@
+<style>
+    footer {
+        text-align: center;
+        justify-content: center;
+        margin-top: 10px;
+        font-size: 5px;
+        /* padding: 5px; */
+    }
+
+    .bbtn {
+        opacity: 0.5;
+    }
+</style>
+
 <footer>
     <p>Enjoy the bananas</p>
     <p>BANANAASSS</p>

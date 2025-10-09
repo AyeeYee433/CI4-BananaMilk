@@ -186,18 +186,17 @@
             margin: 20px;
         }
 
-        .bbtn {
+        /* .bbtn {
             text-align: center;
-            /* justify-content: center; */
+            justify-content: center;
             margin-top: 10px;
             font-size: 5px;
             padding: 5px;
-        }
+        } */
     </style>
 </head>
 
 <body>
-
 
     <?php
 
@@ -231,6 +230,7 @@
         </div>
     </div>
 
+    <?= view('Components/cards/header') ?>
     <!-- moodboard -->
     <div class="moodboard">
         <h1>Moodboard</h1>
@@ -301,6 +301,7 @@
         </div>
 
     </div>
+
 
     <?= view('Components/cards/footer') ?>
 
