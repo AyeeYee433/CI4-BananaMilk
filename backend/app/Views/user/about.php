@@ -302,6 +302,8 @@
 
     </div>
 
+    <!-- footer -->
+
 
     <?= view('Components/cards/footer') ?>
 
