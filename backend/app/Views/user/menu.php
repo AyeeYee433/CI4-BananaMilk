@@ -238,6 +238,20 @@
         </div>
     </div>
 
+    <!-- <div class="call">
+        <div class="calls">
+            <div class="callToAct">
+                <img src="https://littlepans.com/wp-content/uploads/2022/04/banana-coffee.jpg" alt="callToAct">
+                <p>Enjoy our banana centered treats now</p>
+            </div>
+
+
+        </div>
+
+
+    </div> -->
+
+    <?= view('Components/cta') ?>
 
     <body>
 
