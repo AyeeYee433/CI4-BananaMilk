@@ -2,17 +2,14 @@
     header {
         text-align: center;
         justify-content: center;
-        position: fixed;
-        margin-top: 20px;
+        /* position: fixed; */
+        font-size: xx-small;
+        font-weight: lighter;
+        background-color: #ede6ddff;
+        padding: auto;
     }
 </style>
 <header>
-    <div>
-        <p>A Banana based beverages and food for those that like bananas</p>
-        <div class="bbtn">
-            <?= view('Components/buttons/primarybtn', ['label' => 'About', 'href' => '/about']) ?>
-        </div>
-
-    </div>
+    <p>Banana based treats for those who like bananas</p>
 
 </header>
