@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(function() {
+            $("#header").load("header.php");
+            $("#footer").load("footer.php");
+        });
+    </script>
 
     <style>
         body {
@@ -179,6 +185,14 @@
             text-align: center;
             margin: 20px;
         }
+
+        .bbtn {
+            text-align: center;
+            /* justify-content: center; */
+            margin-top: 10px;
+            font-size: 5px;
+            padding: 5px;
+        }
     </style>
 </head>
 
@@ -187,7 +201,10 @@
 
     <?php
 
+    use Config\View;
+
     ?>
+
 
     <div class="hed">
         <div>
@@ -284,6 +301,9 @@
         </div>
 
     </div>
+
+    <?= view('Components/cards/footer') ?>
+
 
     <body>
 
