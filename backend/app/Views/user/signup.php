@@ -80,6 +80,7 @@
 
         form {
             border: 3px solid #f1f1f1;
+            padding: 5px;
         }
 
         button {
@@ -116,6 +117,11 @@
             .cancelbtn {
                 width: 100%;
             }
+        }
+
+        label {
+            display: block;
+            text-align: left;
         }
     </style>
 
@@ -154,9 +160,12 @@
 
             <h1>Sign up</h1>
             <form class="sig" method="Post" action="/handle-signup">
+                <label for="fullname"><b>Fullname:</b></label>
                 <input type="text" id="fullname" name="fullname" placeholder="Fullname" required>
+                <label for="username"><b>Username:</b></label>
                 <input type="text" id="username" name="username" placeholder="Username" required>
-                <input type="text" id="pass" name="password" placeholder="Password" required>
+                <label for="pass"><b>Password:</b></label>
+                <input type="text" id="pass" name="pass" placeholder="Password" required>
                 <button type="submit">Sign Up
                     <button type="button" class="cancelbtn" onclick="window.location.href='/'">Cancel</button>
                     <span class="psw">Forgot <a href="#">password?</a></span>
