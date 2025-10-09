@@ -5,9 +5,9 @@
     <title>About</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-<body>
     <style>
         body {
             /* background-color: #FCE7C8; */
@@ -92,6 +92,9 @@
         .step:hover {
             background-color: #D97D55;
             font-size: 18px;
+            transition: transform 0.3s;
+            box-shadow: 0 6px 12px rgba(29, 53, 87, 0.1);
+            transform: translate(-5px);
         }
 
         .moodi {
@@ -102,6 +105,7 @@
             gap: 20px;
             flex-wrap: wrap;
             max-width: 1000px;
+            padding: 40px;
         }
 
         .moodi img {
@@ -109,6 +113,13 @@
             max-width: 100%;
             height: auto;
             display: block;
+        }
+
+        .moodi:hover {
+            box-shadow: 0 6px 12px rgba(29, 53, 87, 0.1);
+            transform: translate(-5px);
+            /* padding: 30px; */
+            transition: transform 0.3s;
         }
 
         .moodcolor {
@@ -121,12 +132,19 @@
             max-width: 1000px;
         }
 
+        .colors:hover {
+            box-shadow: 0 6px 12px rgba(29, 53, 87, 0.1);
+            transform: translate(-5px);
+        }
+
+
+
         .moodboard {
             margin: 0 auto;
             justify-content: center;
             background-color: rgb(194, 166, 140, 0.5);
-            width: 65%;
-            padding: 10px;
+            max-width: 65%;
+            padding: 40px 10px;
         }
 
         .roadd {
@@ -137,7 +155,35 @@
             padding: 10px;
             background-color: 0.5;
         }
+
+        .roadd h1 {
+            text-align: center;
+        }
+
+        .colors {
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+            margin: 50px auto;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .w3-btn {
+            width: 150px;
+        }
+
+        .buttons {
+            text-align: center;
+            margin: 20px;
+        }
     </style>
+</head>
+
+<body>
+
 
     <?php
 
@@ -174,9 +220,17 @@
         <div class="moodbI">
             <div class="moodcolor">
                 <div class="colors" style="background-color: #FCE7C8; color: #1d3557;" title="Banana Cream">#FCE7C8</div>
-                <div class="colors" style="background-color: #ede6ddff; color: #1d3557;" title="Oat Milk">#ede6ddff</div>
+                <div class="colors" style="background-color: #ede6ddff; color: #1d3557;" title="Oat Milk">#Ede6ddff</div>
                 <div class="colors" style="background-color: #C2A68C; color: white;" title="Dark Coffee">#C2A68C</div>
                 <div class="colors" style="background-color: #D97D55; color: white;" title="Blue Accent">#D97D55</div>
+            </div>
+
+            <!-- buttons -->
+            <div class="mt-3 container">
+                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-secondary">Secondary</button>
+                <button type="button" class="btn-outline-primary btn">Border</button>
+                <button type="button" class="btn btn-primary" disabled>Disabled</button>
             </div>
 
             <div class="moodi">

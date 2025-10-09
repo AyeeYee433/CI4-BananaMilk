@@ -63,7 +63,7 @@
             text-align: center;
         }
 
-        .logininpage {
+        .loginpage {
             width: 100%;
             max-width: 400px;
             padding: 30px;
@@ -85,6 +85,7 @@
 
         form {
             border: 3px solid #f1f1f1;
+            padding: 5px;
         }
 
         button {
@@ -121,6 +122,11 @@
             .cancelbtn {
                 width: 100%;
             }
+        }
+
+        label {
+            display: block;
+            text-align: left;
         }
     </style>
 
@@ -159,8 +165,10 @@
             <div class="loginpage">
                 <h1>Login</h1>
                 <form class="log" method="POST" action="/handle-login">
-                    <input type="text" id="username" placeholder="Email or Username" required>
-                    <input type="text" id="pass" placeholder="Password" required>
+                    <label for="user"><b>Email/Username:</b></label>
+                    <input type="text" id="username" name="user" placeholder="Email or Username" required>
+                    <label for="pass"><b>Password:</b></label>
+                    <input type="text" id="pass" name="pass" placeholder="Password" required>
                     <button type="submit">Login
                         <button type="button" class="cancelbtn" onclick="window.location.href='/'">Cancel</button>
                         <span class="psw">Forgot <a href="#">password?</a></span>
