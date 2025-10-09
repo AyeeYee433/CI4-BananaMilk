@@ -3,8 +3,8 @@
         text-align: center;
         justify-content: center;
         margin-top: 10px;
-        font-size: 5px;
-        /* padding: 5px; */
+        font-size: 8px;
+        padding: 1rem;
     }
 
     .bbtn {
