@@ -126,7 +126,7 @@
 
     ?>
 
-    <div class="hed">
+    <!-- <div class="hed">
         <div>
             <table class="table1">
                 <td>
@@ -149,8 +149,8 @@
                 </td>
             </table>
         </div>
-    </div>
-
+    </div> -->
+    <?= view('Components/cards/header') ?>
     <!-- new menu -->
     <div class="menus">
         <div class="mmenu">
@@ -252,6 +252,7 @@
     </div> -->
 
     <?= view('Components/cta') ?>
+    <?= view('Components/cards/footer') ?>
 
     <body>
 

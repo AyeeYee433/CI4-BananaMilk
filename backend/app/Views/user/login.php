@@ -134,7 +134,7 @@
 
     ?>
 
-    <div class="hed">
+    <!-- <div class="hed">
         <div>
             <table class="table1">
                 <td>
@@ -157,8 +157,8 @@
                 </td>
             </table>
         </div>
-    </div>
-
+    </div> -->
+    <?= view('Components/cards/header') ?>
     <!-- login -->
     <div>
         <div class="logg">
@@ -183,6 +183,7 @@
 
 
 
+        <?= view('Components/cards/footer') ?>
 
         <body>
 

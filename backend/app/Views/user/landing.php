@@ -78,7 +78,7 @@
 
     ?>
 
-    <div class="hed">
+    <!-- <div class="hed">
         <div>
             <table class="table1">
                 <td>
@@ -101,8 +101,8 @@
                 </td>
             </table>
         </div>
-    </div>
-
+    </div> -->
+    <?= view('Components/cards/header') ?>
     <!-- landind -->
     <div>
         <div class="welcome">
@@ -111,6 +111,7 @@
 
     </div>
 
+    <?= view('Components/cards/footer') ?>
 
     <body>
 

@@ -129,7 +129,7 @@
 
     ?>
 
-    <div class="hed">
+    <!-- <div class="hed">
         <div>
             <table class="table1">
                 <td>
@@ -152,8 +152,8 @@
                 </td>
             </table>
         </div>
-    </div>
-
+    </div> -->
+    <?= view('Components/cards/header') ?>
     <!-- signup -->
     <div class="singg">
         <div class="signuppage">
@@ -177,6 +177,7 @@
     </div>
 
 
+    <?= view('Components/cards/footer') ?>
 
     <body>
 
